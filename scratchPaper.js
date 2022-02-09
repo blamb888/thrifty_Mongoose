@@ -124,8 +124,10 @@ for(let i = 0; i < data.length; i++) {
 };
 
 // Okay looking good. I really love top level await, but let's wrap it in
-// a single named async function that accepts 2 arguments
+// a single named async function that accepts
 // (fromDate, toDate)
 // this way we can export our function easily.
 // Test it with an API call...
 // SUCCESS!
+// Thank you for taking the time to go through this code
+// Congratulations you have reached the end:)
