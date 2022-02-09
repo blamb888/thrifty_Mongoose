@@ -129,5 +129,6 @@ for(let i = 0; i < data.length; i++) {
 // this way we can export our function easily.
 // Test it with an API call...
 // SUCCESS!
+
 // Thank you for taking the time to go through this code
 // Congratulations you have reached the end:)
