@@ -12,7 +12,8 @@ const input8 = [5, 1, 7, 8];
 // Expected result: [5, 5, 1, 2, 5, 1, 7, 8]
 
 const joinArrays = (array1, array2) => {
-
+  const newArr = array1.concat(array2.filter((item) => array1.indexOf(item) < 0))
+  return newArr
 }
 
 const results = {
