@@ -25,11 +25,6 @@ export async function finalFunction(fromDate, toDate) {
   const json = await raw_data.json();
   const data = json.data;
 
-
-  // const txt = await fs.readFile('data.json');
-  // const parsed_txt = JSON.parse(txt);
-  // const data = parsed_txt.data;
-
   console.log('number of records =', data.length)
   for(let i = 0; i < data.length; i++) {
     let records = [{
